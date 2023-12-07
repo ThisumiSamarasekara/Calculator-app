@@ -1,0 +1,36 @@
+.Button_set {
+  width: 426px;
+  height: 340px;
+  background-color: hsl(223, 31%, 20%);
+  border-radius: 10px;
+  padding-top: 32px;
+  padding-left: 4px;
+  margin-top: 20px;
+}
+
+.Button_set1 {
+  display: grid;
+  row-gap: 20px;
+  grid-template-columns: repeat(4, 0fr);
+  margin-bottom: 20px;
+}
+
+.reset {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+}
+
+@media (max-width: 460px) {
+  .Button_set {
+    width: 315px;
+    height: 380px;
+    padding-top: 28px;
+    padding-left: 10px;
+  }
+
+  .Button_set1 {
+    width: 300px;
+    row-gap: 15px;
+    margin-bottom: 15px;
+  }
+}

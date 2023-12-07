@@ -1,0 +1,19 @@
+.Wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calculator {
+  width: 430px;
+}
+
+@media (max-width: 460px) {
+  .Wrapper {
+    width: 325px;
+  }
+  .calculator {
+    width: 325px;
+  }
+}

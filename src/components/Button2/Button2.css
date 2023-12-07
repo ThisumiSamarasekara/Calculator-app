@@ -1,0 +1,47 @@
+.button2_container {
+  position: relative;
+  margin-left: 20px;
+}
+
+.button_box1 {
+  position: absolute;
+  top: -4px;
+  width: 180px;
+  height: 45px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.button_box1 .number {
+  text-align: center;
+  padding-top: 7px;
+  font-size: 22px;
+  color: white;
+  font-family: "League Spartan";
+}
+
+.button_box2 {
+  width: 180px;
+  height: 45px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.button_box1:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 460px) {
+  div.button2_container {
+    margin-left: 40px;
+    width: 100px;
+  }
+  button.button_box1 {
+    width: 134px;
+    margin-left: -27px;
+  }
+  button.button_box2 {
+    width: 134px;
+    margin-left: -27px;
+  }
+}

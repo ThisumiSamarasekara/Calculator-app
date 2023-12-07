@@ -1,0 +1,12 @@
+.topic_heading {
+  font-size: 28px;
+  font-family: "League Spartan";
+  color: white;
+  margin-left: 6px;
+}
+
+@media (max-width: 460px) {
+  .topic_container {
+    width: 325px;
+  }
+}
