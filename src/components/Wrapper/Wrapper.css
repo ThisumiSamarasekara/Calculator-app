@@ -28,4 +28,12 @@
   .calculator {
     width: 325px;
   }
+  .heading-theme {
+    gap: 0px;
+  }
+  .theme {
+    height: 40px;
+    margin-top: 24px;
+    margin-left: -80px;
+  }
 }
