@@ -14,7 +14,7 @@ Users should be able to:
 ![image](https://github.com/ThisumiSamarasekara/Calculator-app/assets/77894368/b3f679cb-b338-4c86-92ce-ebb447f56500)
 
 ### User interface with hover effects
-![image](https://github.com/ThisumiSamarasekara/Calculator-app/assets/77894368/9dabbd19-1c6d-471c-bc21-0aa09b26249e)
+![image](https://github.com/ThisumiSamarasekara/Calculator-app/assets/77894368/af82d959-469b-472a-961e-2bc67e3ed287)
 
 ### Mobile User interface
 ![image](https://github.com/ThisumiSamarasekara/Calculator-app/assets/77894368/af409974-6914-4147-88bc-ae636168f214)
