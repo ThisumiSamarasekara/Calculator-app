@@ -9,6 +9,18 @@
   width: 430px;
 }
 
+.heading-theme {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.theme {
+  height: 40px;
+  margin-top: 24px;
+  margin-left: 250px;
+}
+
 @media (max-width: 460px) {
   .Wrapper {
     width: 325px;

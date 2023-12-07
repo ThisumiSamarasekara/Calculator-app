@@ -1,4 +1,4 @@
-import "./Topic.css";
+import "./Heading.css";
 
 const Topic = () => {
   return (

@@ -2,8 +2,8 @@ import "./Wrapper.css";
 import React, { useState } from "react";
 import ButtonBox from "../ButtonBox/ButtonBox";
 import Screen from "../Screen/Screen";
-import Topic from "../Topic/Topic";
-// import Theme from "../Theme/Theme";
+import Heading from "../Heading/Heading";
+import Theme from "../Theme/Theme";
 
 function Wrapper() {
   const [input, setInput] = useState("");
@@ -65,8 +65,14 @@ function Wrapper() {
   return (
     <div className="Wrapper">
       <div className="calculator">
-        <Topic />
-        {/* <Theme /> */}
+        <div className="heading-theme">
+          <div className="heading">
+            <Heading />
+          </div>
+          <div className="theme">
+            <Theme />
+          </div>
+        </div>
         <Screen input={input} />
         <ButtonBox
           onButtonClick={handleButtonClick}
